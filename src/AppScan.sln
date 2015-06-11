@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppScan", "AppScan\AppScan.vcxproj", "{C44A7901-D461-4C72-8C5D-6770CEABCD4F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppScanLib", "AppScanLib\AppScanLib.vcxproj", "{278BAC8D-6DC5-4727-BAA2-499D89E04577}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{D412E837-EC87-4389-8949-1F965F4DFC9B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_webauth", "app_webauth\app_webauth.vcxproj", "{B2FEEE66-43A9-48FA-929E-B6BA016B891F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_taginfo", "app_taginfo\app_taginfo.vcxproj", "{221C435C-8371-4F3E-A721-C7E291527D8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C44A7901-D461-4C72-8C5D-6770CEABCD4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C44A7901-D461-4C72-8C5D-6770CEABCD4F}.Debug|Win32.Build.0 = Debug|Win32
+		{C44A7901-D461-4C72-8C5D-6770CEABCD4F}.Release|Win32.ActiveCfg = Release|Win32
+		{C44A7901-D461-4C72-8C5D-6770CEABCD4F}.Release|Win32.Build.0 = Release|Win32
+		{278BAC8D-6DC5-4727-BAA2-499D89E04577}.Debug|Win32.ActiveCfg = Debug|Win32
+		{278BAC8D-6DC5-4727-BAA2-499D89E04577}.Debug|Win32.Build.0 = Debug|Win32
+		{278BAC8D-6DC5-4727-BAA2-499D89E04577}.Release|Win32.ActiveCfg = Release|Win32
+		{278BAC8D-6DC5-4727-BAA2-499D89E04577}.Release|Win32.Build.0 = Release|Win32
+		{B2FEEE66-43A9-48FA-929E-B6BA016B891F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2FEEE66-43A9-48FA-929E-B6BA016B891F}.Debug|Win32.Build.0 = Debug|Win32
+		{B2FEEE66-43A9-48FA-929E-B6BA016B891F}.Release|Win32.ActiveCfg = Release|Win32
+		{B2FEEE66-43A9-48FA-929E-B6BA016B891F}.Release|Win32.Build.0 = Release|Win32
+		{221C435C-8371-4F3E-A721-C7E291527D8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{221C435C-8371-4F3E-A721-C7E291527D8E}.Debug|Win32.Build.0 = Debug|Win32
+		{221C435C-8371-4F3E-A721-C7E291527D8E}.Release|Win32.ActiveCfg = Release|Win32
+		{221C435C-8371-4F3E-A721-C7E291527D8E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2FEEE66-43A9-48FA-929E-B6BA016B891F} = {D412E837-EC87-4389-8949-1F965F4DFC9B}
+		{221C435C-8371-4F3E-A721-C7E291527D8E} = {D412E837-EC87-4389-8949-1F965F4DFC9B}
+	EndGlobalSection
+EndGlobal
