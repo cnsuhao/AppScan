@@ -270,8 +270,6 @@ DWORD WINAPI HttpScanWorkProc(PVOID lpThreadParameter)
 							break;
 						}
 						SetEvent(hDone);
-						vector<string> listUP;
-						split(strUP,"|",&listUP);
 						PORT_SCAN *lpScanNew = new PORT_SCAN;
 						lpScanNew->isssl = lpScanInfo->isssl;
 						lpScanNew->list = lpScanInfo->list;
